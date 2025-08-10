@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.fb-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #454345;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    z-index: 999;
+    height: 4em;
+}
+
+.fb-logo {
+    display: flex;
+    align-items: center;
+}
+
+.fb-logo-img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+.fb-logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.fb-search{
+    margin-left: -22em;
+}
+.fb-search input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+}
+
+.fb-nav form {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.fb-nav button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.sidebar {
+    width: 25%;
+    margin-top: 60px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+    background-color: #f5f5f5;
+}
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    height: calc(100vh - 60px);
+}
+
+.chat-window {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f9f9f9;
+}
+
+.message {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.sent {
+    background: #dcf8c6;
+    margin-left: auto;
+    text-align: right;
+}
+
+.received {
+    background: #fff;
+    margin-right: auto;
+}
+
+.input-box {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.input-box textarea {
+    flex: 1;
+    height: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    resize: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-box button {
+    padding: 10px 15px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar img {
+    /* border-radius: 50%; */
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 3em;
+    weight: 2em;
+}
+
+/* Highlighted state */
+.sidebar .user-link.active {
+    background-color: #4a85dd;
+    /* your blue */
+}
+.user-link{
+    border-radius: 1em;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Profile</title>
+    <link rel="stylesheet" href="/heartz/css/register.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <img src="/heartz/files/images/logo.png" alt="Logo" class="logo">
+
+            <h2>Register Your Profile</h2>
+
+            <form action="/heartz/php/store.php" method="POST" enctype="multipart/form-data" class="register-form">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" rows="3" placeholder="Tell us something about you..."></textarea>
+
+                <label for="profile_pic">Profile Picture:</label>
+                <input type="file" name="profile_pic" id="profile_pic" accept="image/*">
+
+                <input type="submit" value="Register" class="submit-btn">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/heartz/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="/heartz/files/images/logo.png" alt="Logo" class="logo">
+
+        <h2>Login</h2>
+
+        <form action="/heartz/php/login.php" method="POST" class="login-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+
+            <input type="submit" value="Login" class="login-btn">
+        </form>
+
+        <a href="/heartz/html/index.html">
+            <button class="create-btn">Create New Account</button>
+        </a>
+    </div>
+</body>
+</html>
