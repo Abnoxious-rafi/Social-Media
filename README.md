@@ -89,7 +89,7 @@ Server: XAMPP
 ## Screenshots
 
 <div>
-  <summary>Click to view screenshots (6 images)</summary>
+  <summary> screenshots (6 images)</summary>
 
   <p align="center">
     <a href="demo_pic/1.png"><img src="demo_pic/1.png" width="300" alt="1"></a>
