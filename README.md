@@ -59,20 +59,26 @@ arduino
 Copy
 Edit
 http://localhost/Social-Media
-🎯 Purpose
+
+#🎯 Purpose
 This project is a practice environment to:
 
-Learn PHP and MySQL
+ Learn PHP and MySQL
 
-Understand social media backend workflows
+ Understand social media backend workflows
 
-Implement real-time messaging logic
+ Implement real-time messaging logic
 
-Explore database-driven web development
+ Explore database-driven web development
 
-📌 Tech Stack
+#📌 Tech Stack
 Backend: PHP
 
+Database: MySQL (phpMyAdmin)
+
+Frontend: HTML, CSS, JavaScript
+
+Server: XAMPP
 Database: MySQL (phpMyAdmin)
 
 Frontend: HTML, CSS, JavaScript
