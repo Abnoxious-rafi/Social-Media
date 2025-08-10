@@ -88,7 +88,7 @@ Server: XAMPP
 # Some pic of this project
 ## Screenshots
 
-<details>
+<div>
   <summary>Click to view screenshots (6 images)</summary>
 
   <p align="center">
@@ -102,6 +102,6 @@ Server: XAMPP
   </p>
 
   *Click any image to open full-size.*
-</details>
+</div>
 
 
