@@ -60,7 +60,7 @@ Copy
 Edit
 http://localhost/Social-Media
 
-#🎯 Purpose
+# 🎯 Purpose
 This project is a practice environment to:
 
  Learn PHP and MySQL
@@ -71,7 +71,7 @@ This project is a practice environment to:
 
  Explore database-driven web development
 
-#📌 Tech Stack
+# 📌 Tech Stack
 Backend: PHP
 
 Database: MySQL (phpMyAdmin)
