@@ -84,3 +84,24 @@ Database: MySQL (phpMyAdmin)
 Frontend: HTML, CSS, JavaScript
 
 Server: XAMPP
+
+# Some pic of this project
+## Screenshots
+
+<details>
+  <summary>Click to view screenshots (6 images)</summary>
+
+  <p align="center">
+    <a href="demo_pic/1.png"><img src="demo_pic/1.png" width="300" alt="1"></a>
+    <a href="demo_pic/2.png"><img src="demo_pic/2.png" width="300" alt="2"></a>
+    <a href="demo_pic/3.png"><img src="demo_pic/3.png" width="300" alt="3"></a>
+    <br>
+    <a href="demo_pic/4.png"><img src="demo_pic/4.png" width="300" alt="4"></a>
+    <a href="demo_pic/5.png"><img src="demo_pic/5.png" width="300" alt="5"></a>
+    <a href="demo_pic/6.png"><img src="demo_pic/6.png" width="300" alt="6"></a>
+  </p>
+
+  *Click any image to open full-size.*
+</details>
+
+
